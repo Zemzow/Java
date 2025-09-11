@@ -5,10 +5,6 @@ public class Main
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	
-	    Aluno aVazio = new Aluno();
-	    aVazio.imprimeAluno();
-	    aVazio.setNome("Andrea");
-	    System.out.println("Nome " + aVazio.getNome());
 	    System.out.println("Nome ");
 		String n = sc.nextLine();
 		int cod;
